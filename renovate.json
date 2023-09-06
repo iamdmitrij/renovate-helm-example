@@ -17,8 +17,8 @@
 
   "packageRules": [
     {
-      "matchFileNames": ["helm-values-in-one-dir/values.Development.yaml"],
-      "allowedVersions": "1.14.1"
+      "matchFileNames": ["helm-values-in-one-dir/values.Production.yaml"],
+      "allowedVersions": "1.14.2"
     }
   ]
 }
