@@ -1,4 +1,4 @@
 image:
   repository: nginx
-  tag: 1.14.2
+  tag: 1.14.0
   registry: docker.io
