@@ -2,10 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
 
-  "includePaths": ["helm-values-in-one-dir/values.Production.yaml"],
+  "includePaths": ["helm-values-development/values.yaml"],
 
   "helm-values": {
-    "fileMatch": ["helm-values-in-one-dir/values.Production.yaml"]
+    "fileMatch": ["helm-values-development/values.yaml"]
   },
 
   "kubernetes": {
@@ -17,8 +17,8 @@
 
   "packageRules": [
     {
-      "matchFileNames": ["helm-values-in-one-dir/values.Production.yaml"],
-      "allowedVersions": "1.14.2"
+      "matchFileNames": ["helm-values-development/values.yaml"],
+      "allowedVersions": "1.14.1"
     }
   ]
 }
