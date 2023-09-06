@@ -18,7 +18,7 @@
   "packageRules": [
     {
       "matchFileNames": ["helm-values-development/values.yaml"],
-      "allowedVersions": "1.14.1"
+      "allowedVersions": "1.14.3"
     }
   ]
 }
